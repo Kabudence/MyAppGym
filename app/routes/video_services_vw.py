@@ -11,6 +11,7 @@ def get_video_services_view():
     resultados = [dict(row) for row in query]
     return jsonify(resultados), 200
 
+
 # CREATE VIEW vw_servicios_videos AS
 # SELECT
 #     servicios.ID AS servicio_id,
